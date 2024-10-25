@@ -1,0 +1,41 @@
+<!--  Template Engine -->
+<!-- Embedded JavaScript templates (EJS) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Profile Page</title>
+</head>
+<body>
+   <h1>Profile Page//</h1>
+   <h2>Help of EJS.</h2>
+   
+   <h2>Welcome <%= user.name %></h2>
+   <h2>Email: <%= user.email %></h2>
+
+   <!-- // How to make Loop in ejs. -->
+    
+    <div>
+        <ul>
+              <!-- <%=user.skill %>  O/P: Javascript,Java,MERN Stack,Database -->
+              <% user.skills.forEach((item)=>{ %>
+                 <li> <%= item %> </li>
+              <% }) %> 
+        </ul>
+     </div>
+  
+     <!-- common folder se  header wali file sabhi jagah load karna. Note: EJS syntex ka dhyan rakhna. -->
+    <%- include("common/header"); %>
+
+</body>
+</html>
+
+<!-- Jis tarike se ham react me variable/object ko use karne ke liye {} and angular mai {{}} ka use karte hai usi tarike se ejs template engine me variable ko use karne ke liye  " <%= %> ka use hota hai. "-->
+
+<!-- // Note : { user } curly bracket me likha hona chahiye nahi to error aayega. -->
+<!-- Jaha par ye object banaya hai and fir use render kiya hai vaha par { user } curly braket me hona chahiye nahi to error aayega. -->
+
+
+<!-- Result:  To is tarikhe se hame Dynamic Data Get kar liya hai. -->
+<!-- understand <%= %>, <% %> syntex -->

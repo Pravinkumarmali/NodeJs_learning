@@ -1,0 +1,35 @@
+1. // create new database
+     -- use databaseName
+
+2. // create collection
+     -- db.createCollection('video')
+
+3. // show database
+     -- show dbs
+
+4. // show collection
+     -- show collections
+
+5. // delete collection
+     -- db.collectionName.drop()
+
+6. // for current database delete
+     -- db.dropDatabase()
+
+
+// CRUD opperation with mongoDB
+
+// insert data
+
+db.products.insertOne({name:'A30s', brand:'samsung', price:20000, category:'mobile'})
+
+// find
+db.products.find()
+
+// update
+db.products.updateOne({name:'A30s'}, {$set:{name:'A30s Pro'}})
+
+// delete
+db.products.deleteOne({brand:'vivo'})
+
+
