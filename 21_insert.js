@@ -1,4 +1,5 @@
-// Insert Data in MongoDB
+// Insert Data in MongoDB.
+
 const { name } = require("ejs");
 const dbConnect = require("./19_mongoDB");
 
