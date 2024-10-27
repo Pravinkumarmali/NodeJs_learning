@@ -8,7 +8,7 @@ console.log(script.name);
 // create file
 fs.writeFileSync("hello.txt", "create new file");
 
-// show directory name
+// show directory name.
 console.log("------> ", __dirname);
 
 // show file name
