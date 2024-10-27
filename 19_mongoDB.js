@@ -1,3 +1,5 @@
+// mongodb database connection.
+
 const { MongoClient } = require("mongodb");
 const databaseName = "e-commerce";
 const url = "mongodb://localhost:27017";
