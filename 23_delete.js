@@ -1,4 +1,4 @@
-// Delete Data in MongoDB
+// Delete Data in MongoDB.
 
 const dbConnect = require("./19_mongoDB");
 
