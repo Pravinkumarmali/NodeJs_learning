@@ -1,4 +1,4 @@
-// Remove Extension From URL
+// <---- Remove Extension From URL ---->
 const express = require("express");
 const path = require("path");
 
