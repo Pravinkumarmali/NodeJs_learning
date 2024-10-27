@@ -1,3 +1,5 @@
+// CRUD command note file.
+
 1. // create new database
      -- use databaseName
 
