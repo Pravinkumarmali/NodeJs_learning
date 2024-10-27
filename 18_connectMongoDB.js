@@ -1,4 +1,4 @@
-// <---- Connect MongoDB With Node.js ---->
+// <----- Connect MongoDB With Node.js ----->
 
 // const MongoClient = require("mongodb").MongoClient;
 // Both Are true, in morden js use is this syntex.
