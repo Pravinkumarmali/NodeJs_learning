@@ -1,4 +1,4 @@
-// Render HTML and JSON
+// Render HTML and JSON in js.
 
 const express = require("express");
 const app = express();
