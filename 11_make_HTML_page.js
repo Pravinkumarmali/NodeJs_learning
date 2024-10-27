@@ -1,4 +1,4 @@
-// Make HTML Page.  // Help of public folder.
+// Make HTML Page. Help of public folder.
 
 const express = require("express");
 const path = require("path");
